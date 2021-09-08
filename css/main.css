@@ -1,0 +1,96 @@
+body{
+   background-color: #2A2C34;
+ }
+
+ .container {
+   width: 300px;
+   height: 300px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%) rotate(45deg);
+   overflow: hidden;
+ }
+
+ .w1 {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   bottom: -35px;
+   right: -35px;
+   border-radius: 50%;
+   background-color: #fff;
+   z-index: 10;
+ }
+
+ .w2 {
+   width: 200px;
+   height: 200px;
+   background-color: #2A2C34;
+   position: absolute;
+   border-radius: 50%;
+   bottom: -70px;
+   right: -70px;
+   z-index: 9;
+ }
+
+ .w3 {
+   width: 300px;
+   height: 300px;
+   position: absolute;
+   bottom: -120px;
+   right: -120px;
+   border-radius: 50%;
+   background-color:#2A2C34;
+   z-index: 8;
+   animation-name: w3;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+ }
+
+ @keyframes w3{
+   0% {
+     background-color: #2A2C34;
+   }
+   100% {
+     background-color: #35363D;
+   }
+ }
+
+ .w4 {
+   width: 400px;
+   height: 400px;
+   position: absolute;
+   bottom: -155px;
+   right: -155px;
+   border-radius: 50%;
+   background-color:#2A2C34;
+   z-index: 7;
+ }
+
+ .w5 {
+   width: 500px;
+   height: 500px;
+   position: absolute;
+   bottom: -200px;
+   right: -200px;
+   background-color:#2A2C34;
+   border-radius: 50%;
+   z-index: 6;
+   animation-name: w5;
+   animation-duration: 2s;
+   animation-delay: 2s;
+   animation-iteration-count: infinite;
+ }
+
+ @keyframes w5 {
+   0% {
+     background-color: #2A2C34;
+   }
+   50% {
+     background-color: #2A2C34;
+   }
+   100% {
+     background-color: #3E4046;
+   }
+ }
